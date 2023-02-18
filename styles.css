@@ -19,6 +19,10 @@ color-scheme: dark light;
 body {
 min-height: 100vh;
 background-image: url(./assets/home/background-home-mobile.jpg);
+color: #fff;
+font-family: 'Barlow', sans-serif;
+font-family: 'Barlow Condensed', sans-serif;
+font-family: 'Bellefair', serif;
 }
 
 img, picture, svg, video {
@@ -63,4 +67,46 @@ max-width: 100%;
 
 #nav-toggle:checked ~ .header-nav {
   transform: translate(0);
+}
+
+.header-nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 66%;
+  background-image: url(./assets/shared/Rectangle.png);
+
+}
+
+.header-close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-top: 2em;
+  margin-right: 2em;
+}
+
+.header-links {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1.25em;
+  height: 100%;
+  margin-top: 8.5em;
+}
+
+.header-link {
+  margin-bottom: 1.5em;
+}
+
+em {
+  font-weight: bold;
+}
+
+.header-link a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 100;
+  font-family: 'Barlow Condensed';
+  letter-spacing: 2px;
 }
