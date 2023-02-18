@@ -8,10 +8,6 @@ padding: 0;
 font: inherit;
 }
 
-body > * {
-  outline: 1px solid red;
-}
-
 html {
 color-scheme: dark light;
 }
@@ -21,8 +17,6 @@ min-height: 100vh;
 background-image: url(./assets/home/background-home-mobile.jpg);
 color: #fff;
 font-family: 'Barlow', sans-serif;
-font-family: 'Barlow Condensed', sans-serif;
-font-family: 'Bellefair', serif;
 }
 
 img, picture, svg, video {
@@ -109,4 +103,51 @@ em {
   font-weight: 100;
   font-family: 'Barlow Condensed';
   letter-spacing: 2px;
+}
+
+/* Main */
+
+.main {
+  text-align: center;
+}
+
+.main-caption,
+.main-text {
+  color: #d0d6f9;
+  letter-spacing: 1px;
+}
+
+.main-caption {
+  font-size: .8rem;
+  margin: 1em;
+  margin-top: 2.5em;
+}
+
+.main-title {
+  font-family: 'Bellefair';
+  font-size: 5rem;
+}
+
+.main-text {
+  font-family: 'Barlow Condensed';
+  line-height: 1.6;
+  width: 90%;
+  margin: 1em auto;
+  font-weight: 400;
+}
+
+.main-explore {
+  width: 150px;
+  height: 150px;
+  background: #fff;
+  border-radius: 50%;
+  color: #0b0d17;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 4.5em;
+  font-family: 'Bellefair';
+  font-size: 1.25rem;
 }
